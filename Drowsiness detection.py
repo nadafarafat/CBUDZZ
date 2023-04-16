@@ -89,19 +89,15 @@ while True:
                 # Read more at http://twil.io/secure
                 #this api make a phone call alert 
 
-# Set environment variables for your credentials
-# Read more at http://twil.io/secure
-
-                account_sid = "AC9ea0008fb6e51f3868eaa69148abbddc"
-                auth_token = "9b5048b85987ba04defa4e6cc73e21e5"
+                account_sid = "ACadac79fe8c36c46eb015144045b47f4c"
+                auth_token = "1de685162be3302a289ad70c1dd0d291"
                 client = Client(account_sid, auth_token)
 
                 call = client.calls.create(
                   url="http://demo.twilio.com/docs/voice.xml",
-                  to="+918483097927",
-                  from_="+16202979867"
+                  to="+919527728149",
+                  from_="+16205429612"
                 )
-
                 print(call.sid)
                 #for band vibration band is connected to the band app in mobile that enables the call alerts 
         else:
@@ -117,7 +113,3 @@ while True:
         break      
 cam.release()
 cv2.destroyAllWindows()
-
-
-
-
