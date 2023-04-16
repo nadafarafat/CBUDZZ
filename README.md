@@ -49,6 +49,7 @@ Driver Drowsiness Detection is a computer vision project that detects if a drive
  - [Python](https://www.python.org/ftp/python/3.11.3/python-3.11.3-amd64.exe)
  - [Cmake]( https://cmake.org/download/)
  - [VS studio build tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/  )
+ - [shape_predictor_68_face_landmarks.dat](https://github.com/italojs/facial-landmarks-recognition/raw/master/shape_predictor_68_face_landmarks.dat )
 ## Usage
 1. Start the IP webcam on your mobile device and note down the IP address/you can directly access to the camera
 2. Run the `drowsiness_detection.py` file.
